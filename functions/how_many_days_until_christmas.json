@@ -1,0 +1,64 @@
+{
+  "responseId": "9482b5a9-8177-466d-8d96-238fe08b7bbb-ce5e18e2",
+  "queryResult": {
+    "queryText": "how many days until christmas",
+    "parameters": {
+      "date": "2020-12-25T12:00:00-05:00"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "There are 33 days left until christmas",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "There are 33 days left until christmas"
+          ]
+        }
+      }
+    ],
+    "webhookPayload": {
+      "google": {
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "There are 33 days left until christmas"
+              }
+            }
+          ]
+        },
+        "expectUserResponse": true
+      }
+    },
+    "outputContexts": [
+      {
+        "name": "projects/jarvis-djjm/agent/sessions/ab41bfcb-53c2-1044-4ea9-fb0cf44d4fe4/contexts/outputuntil",
+        "lifespanCount": 5,
+        "parameters": {
+          "date": "2020-12-25T12:00:00-05:00",
+          "date.original": "christmas"
+        }
+      },
+      {
+        "name": "projects/jarvis-djjm/agent/sessions/ab41bfcb-53c2-1044-4ea9-fb0cf44d4fe4/contexts/outputday",
+        "lifespanCount": 4,
+        "parameters": {
+          "date": "2020-12-25T12:00:00-05:00",
+          "date.original": "christmas"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/jarvis-djjm/agent/intents/406c71fc-7c1c-44c0-93e8-b7db05f90151",
+      "displayName": "days until"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "webhook_latency_ms": 92
+    },
+    "languageCode": "en"
+  },
+  "webhookStatus": {
+    "message": "Webhook execution successful"
+  }
+}

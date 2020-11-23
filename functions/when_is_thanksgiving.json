@@ -1,0 +1,36 @@
+{
+  "responseId": "2fde6ce2-d0e0-4a9a-b50b-ded9c748c60e-ce5e18e2",
+  "queryResult": {
+    "queryText": "when is thanksgiving",
+    "parameters": {
+      "date": "2020-11-26T12:00:00-05:00"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "thanksgiving is 2020-11-26",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "thanksgiving is 2020-11-26"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/jarvis-djjm/agent/sessions/ab41bfcb-53c2-1044-4ea9-fb0cf44d4fe4/contexts/outputday",
+        "lifespanCount": 5,
+        "parameters": {
+          "date.original": "thanksgiving",
+          "date": "2020-11-26T12:00:00-05:00"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/jarvis-djjm/agent/intents/9773c72b-7f3c-4a66-a072-a0a691234eff",
+      "displayName": "When is a day"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  }
+}
